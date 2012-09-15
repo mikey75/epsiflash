@@ -64,7 +64,7 @@ detect_hardware(void)
     if (l == 0x80 && r == 0x00)
 	return 0;
     else
-	return 1;
+	return -1;
 
     return result;
 }

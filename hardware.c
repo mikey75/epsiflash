@@ -46,7 +46,6 @@ int
 detect_hardware(void)
 {
 
-    int             result;
     int             l,
                     r;
 
@@ -63,9 +62,9 @@ detect_hardware(void)
     l = einbit;
 
     if (l == 0x80 && r == 0x00)
-	result = 0;
+	return 0;
     else
-	result = -1;
+	return 1;
 
     return result;
 }

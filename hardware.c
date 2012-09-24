@@ -66,7 +66,6 @@ detect_hardware(void)
     else
 	return -1;
 
-    return result;
 }
 
 void

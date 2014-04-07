@@ -13,6 +13,7 @@ extern void             show_progress(unsigned long, const char *);
 extern void             write_byte_addr(long , unsigned char );
 extern unsigned char    read_byte_addr(long );
 
+// testing testing testing
 struct chiptable  chips[] = {
 
 {
